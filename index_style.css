@@ -230,6 +230,7 @@ form input[type="submit"]:hover, .task {
 .passport {
   padding: 0px;
   margin: 20px;
+  position: absolute;
 }
 
 .main_fon {
