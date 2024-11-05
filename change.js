@@ -8,7 +8,7 @@ const originalTexts = [
     'ЕЛЕНА',
     'АНДРЕЕВНА',
     'ЖЕН',
-    '01.01.2024',
+    '14.04.2005',
     'Г.МОСКВА',
     '2024 CAMPCLUB'
 ];
@@ -20,7 +20,7 @@ const newTexts = [
     'ELENA',
     'ANDREEVNA',
     'FEM',
-    '01.01.2024',
+    '14.04.2005',
     'MOSCOW',
     '2024 CAMPCLUB'
 ];
