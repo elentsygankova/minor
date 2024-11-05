@@ -238,6 +238,9 @@ form input[type="submit"]:hover, .task {
   background-image: url(fon_passport.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+  position: absolute;
+	
 }
 
 .poiret-one-regular {
