@@ -1,1 +1,1 @@
-[# minor](https://elentsygankova.github.io/minor/)
+https://elentsygankova.github.io/minor/)
