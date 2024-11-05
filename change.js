@@ -41,15 +41,4 @@ function change_data() {
     }
 }
 
-function change_name(){
-
-document.getElementsByTagName('p')[3].innerText
-document.getElementsByTagName('p')[3].innerText
-document.getElementsByTagName('p')[3].innerText
-
-}
-
-
-change.addEventListener("click", change_data)
-
 change.addEventListener("click", change_data);
