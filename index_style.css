@@ -237,7 +237,6 @@ form input[type="submit"]:hover, .task {
   background-image: url(fon_passport.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
 }
 
 .poiret-one-regular {
@@ -270,7 +269,7 @@ form input[type="submit"]:hover, .task {
 .vidandata{
   margin-left: 436px;
   margin-top: 68px;
-
+  
 }
 
 .vidancod{
