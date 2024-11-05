@@ -1,0 +1,44 @@
+const change = document.getElementById("change")
+
+const originalTexts = [
+    'ГУ МВД РОССИИ ПО Г.МОСКВЕ',
+    '14.06.2019',
+    '123-456',
+    'ЦЫГАНКОВА',
+    'ЕЛЕНА',
+    'АНДРЕЕВНА',
+    'ЖЕН',
+    '01.01.2024',
+    'Г.МОСКВА',
+    '2024 CAMPCLUB'
+];
+const newTexts = [
+    'GU MVD RUSSIA IN MOSCOW',
+    '14.06.2019',
+    '123-456',
+    'TSYGANKOVA',
+    'ELENA',
+    'ANDREEVNA',
+    'FEM',
+    '01.01.2024',
+    'MOSCOW',
+    '2024 CAMPCLUB'
+];
+let isChanged = false;
+
+function change_data() {
+    const paragraphs = document.getElementsByTagName('p');
+    if (isChanged) {
+        for (let i = 0; i < paragraphs.length; i++) {
+            paragraphs[i].innerText = originalTexts[i];
+        }
+        isChanged = false;
+    } else {
+        for (let i = 0; i < paragraphs.length; i++) {
+            paragraphs[i].innerText = newTexts[i];
+        }
+        isChanged = true;
+    }
+}
+
+change.addEventListener("click", change_data);

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+   <meta charset="utf-8" />
+   <title>Campclub</title>
+   <link rel="stylesheet" href="index_style.css">
+   
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <h1 class="logo">CAMPCLUB</h1>
+                <h3>
+                <nav>
+                    <ul>
+                        <li><a href='index.html'>Главная</a></li>
+                        <li><a href='seazon.html'>Сезон</a></li>
+                        <li><a href='seazon.html#schedule'>Расписание</a></li>
+                        <li><a href='contacts.html'>Контакты</a></li>
+                        <li><a href="https://adrenalinicsilence.kz/zametki-o-turisme/kategoriya-slozhnosti-marshrutov-v-aktivnom-turizme/?ysclid=m337pyxwt9869621401" target="_blank">Категории<br>сложности</a></li>
+                        <li><a href='passport.html'>Паспорт</a></li>
+                        <li class='active'><a href='task.html'>Задача</a></li></li>
+                        <li><a href='boots.html'>
+                        <img height="55px" src="значок_навигации_negate.png"></a></li>
+                    </ul>
+                </nav>
+            </h3>
+            </div>
+            </header>
+
+            <div class="main">
+                <div class="task">
+                    <p>1013. Даны вещественные числа X и Y . Вычислить Z. Z = XY при X > Y ,Z = ln(X + Y ) в противном случае.</p>
+
+                    <h2>Вычисление Z</h2>
+                    <label for="x">Введите X:</label>
+                    <input type="number" id="x" name="x" required>
+                    <label for="y">Введите Y:</label>
+                    <input type="number" id="y" name="y" required><br><br>
+                    <button id="calculate" class="button">Вычислить Z</button>
+                    <p>Результат: <span id="result"></span></p>
+                </div>
+
+                <script>
+                    document.getElementById('calculate').addEventListener('click', function() {
+                        const x = parseFloat(document.getElementById('x').value);
+                        const y = parseFloat(document.getElementById('y').value);
+                        let z;
+            
+                        if (x > y) {
+                        z = x * y;
+                        } else if ((x + y) <= 0) {
+                            z = 'Нельзя взять логарифм от числа меньше или равного нулю';
+                        } else {
+                            z = Math.log(x + y);
+                        }
+            
+                        document.getElementById('result').innerText = z;
+                    });
+                </script>
+            </div>
+
+            
+            <footer>
+                <div class="container">
+                <p>&copy; 2024 CAMPCLUB</p>
+                </div>
+            </footer>
+        </div>
+  </body>
+  
+  </html>
