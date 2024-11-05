@@ -230,19 +230,18 @@ form input[type="submit"]:hover, .task {
 .passport {
   padding: 0px;
   margin: 20px;
-  position: absolute;
 }
 
 .main_fon {
   height: 734px;
   background-image: url(fon_passport.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+ 
 }
 
 .poiret-one-regular {
   padding-top: 50px;
-  padding-left: 440px;
+  padding-left: 120px;
   font-family: "Poiret One", sans-serif;
   font-weight: italic;
   font-style: normal;
@@ -263,24 +262,24 @@ form input[type="submit"]:hover, .task {
 }
 
 .vidan{
-  margin-left: 460px;
+  margin-left: 140px;
   margin-top: 15px;
 }
 
 .vidandata{
-  margin-left: 436px;
+  margin-left: 126px;
   margin-top: 68px;
   
 }
 
 .vidancod{
-  margin-left: 645px;
+  margin-left: 305px;
   margin-top: -28px;
 }
 
 .podpis_1{
   padding-top: 6px;
-  padding-left: 390px;
+  padding-left: 60px;
   float: left;
 }
 
@@ -292,38 +291,38 @@ form input[type="submit"]:hover, .task {
 
 .passphoto {
   width: 143px;
-  margin-left: 355px;
+  margin-left: 27px;
   margin-top: 34px;
   float: left;
 }
 
 .lastname {
-  margin-left: 630px;
+  margin-left: 300px;
   margin-top: 233px;
 }
 
 .name {
-  margin-left: 640px;
+  margin-left: 317px;
   margin-top: 40px;
 }
 
 .batya {
-  margin-left: 630px;
+  margin-left: 300px;
   margin-top: 15px;
 }
 
 .sex {
-  margin-left: 540px;
+  margin-left: 210px;
   margin-top: 10px;
 }
 
 .born {
-  margin-left: 640px;
+  margin-left: 340px;
   margin-top: -30px;
 }
 
 .bornplace {
-  margin-left: 640px;
+  margin-left: 300px;
   margin-top: 15px;
 }
 
