@@ -239,7 +239,6 @@ form input[type="submit"]:hover, .task {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  position: relative; /* Устанавливаем относительное позиционирование для фона */
 }
 
 .poiret-one-regular {
