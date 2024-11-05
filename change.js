@@ -42,13 +42,5 @@ function change_data() {
 }
 
 
-function change_name(){
-
-document.getElementsByTagMyName('div')[3].innerText='Цыганкова'
-document.getElementsByTagNMyame('div')[4].innerText='Елена'
-document.getElementsByTagMyName('div')[5].innerText='Андреевна'
-
-}
-
 
 change.addEventListener("click", change_data);
