@@ -230,7 +230,6 @@ form input[type="submit"]:hover, .task {
 .passport {
   padding: 0px;
   margin: 20px;
-  position: relative; 
 }
 
 .main_fon {
@@ -239,12 +238,9 @@ form input[type="submit"]:hover, .task {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  position: absolute;
-	
 }
 
 .poiret-one-regular {
-  position: absolute;
   padding-top: 50px;
   padding-left: 440px;
   font-family: "Poiret One", sans-serif;
@@ -269,34 +265,29 @@ form input[type="submit"]:hover, .task {
 .vidan{
   margin-left: 460px;
   margin-top: 15px;
-  position: absolute;
 }
 
 .vidandata{
   margin-left: 436px;
   margin-top: 68px;
-  position: absolute;
-  
+
 }
 
 .vidancod{
   margin-left: 645px;
   margin-top: -28px;
-  position: absolute;
 }
 
 .podpis_1{
   padding-top: 6px;
   padding-left: 390px;
-  float: left
-  position: absolute;
+  float: left;
 }
 
 .podpis_2{
   padding-top: 45px;
   padding-left: 100px;
   float: left;
-  position: absolute;
 }
 
 .passphoto {
@@ -304,37 +295,31 @@ form input[type="submit"]:hover, .task {
   margin-left: 355px;
   margin-top: 34px;
   float: left;
-  position: absolute;
 }
 
 .lastname {
   margin-left: 630px;
   margin-top: 233px;
-  position: absolute;
 }
 
 .name {
   margin-left: 640px;
   margin-top: 40px;
-  position: absolute;
 }
 
 .batya {
   margin-left: 630px;
   margin-top: 15px;
-  position: absolute;
 }
 
 .sex {
   margin-left: 540px;
   margin-top: 10px;
-  position: absolute;
 }
 
 .born {
   margin-left: 640px;
   margin-top: -30px;
-  position: absolute;
 }
 
 .bornplace {
