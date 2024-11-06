@@ -5,7 +5,6 @@
    <meta charset="utf-8" />
    <title>Campclub</title>
    <link rel="stylesheet" href="index_style.css">
-   
 </head>
 
 <body>
@@ -44,26 +43,38 @@
                     <p>Результат: <span id="result"></span></p>
                 </div>
 
+                <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank" style="display:none;">
+                    <input name="q" value="search">
+                    <textarea id="taskFormulation" name="formulation" style="display:none;">1013. Даны вещественные числа X и Y . Вычислить Z. Z = XY при X > Y ,Z = ln(X + Y ) в противном случае.</textarea>
+                    <input id="xValue" name="x" type="hidden">
+                    <input id="yValue" name="y" type="hidden">
+                    <input id="resultValue" name="result" type="hidden">
+                </form>
+
                 <script>
                     document.getElementById('calculate').addEventListener('click', function() {
                         const x = parseFloat(document.getElementById('x').value);
                         const y = parseFloat(document.getElementById('y').value);
                         let z;
-            
+
                         if (x > y) {
-                        z = x * y;
+                            z = x * y;
                         } else if ((x + y) <= 0) {
                             z = 'Нельзя взять логарифм от числа меньше или равного нулю';
                         } else {
                             z = Math.log(x + y);
                         }
-            
+
                         document.getElementById('result').innerText = z;
+                        document.getElementById('xValue').value = x;
+                        document.getElementById('yValue').value = y;
+                        document.getElementById('resultValue').value = z;
+
+                        document.getElementById('UserEnter').submit();
                     });
                 </script>
             </div>
 
-            
             <footer>
                 <div class="container">
                 <p>&copy; 2024 CAMPCLUB</p>
@@ -71,5 +82,5 @@
             </footer>
         </div>
   </body>
-  
+
   </html>
