@@ -41,6 +41,7 @@
                     <input type="number" id="y" name="y" required><br><br>
                     <button id="calculate" class="button">Вычислить Z</button>
                     <p>Результат: <span id="result"></span></p>
+                    <button id="send" class="button">Отправить</button>
                 </div>
 
                 <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank" style="display:none;">
@@ -66,10 +67,19 @@
                         }
 
                         document.getElementById('result').innerText = z;
+                    });
+
+                    document.getElementById('send').addEventListener('click', function() {
+                        const x = parseFloat(document.getElementById('x').value);
+                        const y = parseFloat(document.getElementById('y').value);
+                        const z = document.getElementById('result').innerText;
+
+                        // Заполняем форму для отправки
                         document.getElementById('xValue').value = x;
                         document.getElementById('yValue').value = y;
                         document.getElementById('resultValue').value = z;
 
+                        // Отправляем форму
                         document.getElementById('UserEnter').submit();
                     });
                 </script>
